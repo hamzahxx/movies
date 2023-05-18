@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wanna Watch movies</title>
+    <link rel="icon" href="images/icon.png" type="image/icon type">
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -13,22 +14,95 @@
     />
   </head>
   <body>
-    <div>
-      <h1>movies i have to watch with her</h1>
-      <h2>by hxmzxh</h2>
-      <hr />
-      <h3>1. ajab prem ki gazab kahani</h3>
-      <p>
-        best movie of all time which has a mix of comedy, drama, romance <br />
-        as per me its a must watch
-      </p>
-      <h3>2. de dana dhan</h3>
-      <p>
-        its mostly comedy only but as a tiny touch of love but very funny role
-        by akshay kumar
-      </p>
-      <h3>3. red notice</h3>
-      <p>any movie that has ryan renolds is basically a good comedy</p>
+    <!-- HEAD -->
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="images/head.webp" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" loading="lazy" width="700" height="500">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">movies i have to watch</h1>
+          <p class="lead">Quickly designed, Responsive site showcasing the list of movies i wanna watch</p>
+        </div>
+      </div>
     </div>
+    <!-- THUMBNAIL -->
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="images/ghost.jpg" alt="" class="bd-placeholder-img card-img-top" width="100%" height="100%">
+            <div class="card-body">
+              <p class="card-text">1. Ghosted.<br>starred by chris evans and ana de armas, its a action, romance and comedy movie.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-body-secondary">119 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="images/apkgk.jpg" alt="" class="bd-placeholder-img card-img-top" width="100%" height="100%">
+            <div class="card-body">
+              <p class="card-text">2. Ajab Prem Ki Gazab Kahani.<br>best movie of all time which has a mix of comedy, drama, romance.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-body-secondary">161 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="images/de_dana_dhan.jpg" alt="" class="bd-placeholder-img card-img-top" width="100%" height="100%">
+            <div class="card-body">
+              <p class="card-text">3. de dana dhan<br>its mostly comedy only but as a tiny touch of love but very funny role by akshay kumar.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-body-secondary">167 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="images/rednotice.jpg" alt="" class="bd-placeholder-img card-img-top" width="100%" height="100%">
+            <div class="card-body">
+              <p class="card-text">4. Red Notice<br>any movie that has ryan renolds is basically a good comedy.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-body-secondary">118 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </div>
+    <!-- FOOTER -->
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+              <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-body-secondary">© BL Cube</span>
+          </div>
+      
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3">
+                <a class="text-body-secondary" href="https://twitter.com/team7obito7">
+                    <img src="images/twitter.svg" class="bi" width="24" height="24" alt="">
+                </a>
+            </li>
+            <li class="ms-3">
+                <a class="text-body-secondary" href="https://www.facebook.com/hamzahxx">
+                    <img src="images/facebook.svg" class="bi" width="24" height="24" alt="">
+                </a>
+            </li>
+          </ul>
+        </footer>
+      </div>
+    <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
   </body>
 </html>
